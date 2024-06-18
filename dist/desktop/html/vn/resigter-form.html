@@ -18,8 +18,9 @@
   <link rel="preload" href="../../styles/fonts/gilroy_vh/SVN-GilroyMedium.woff2" as="font" type="woff2" crossorigin="">
   <link rel="preload" href="../../styles/fonts/gilroy_vh/SVN-Gilroy.woff2" as="font" type="woff2" crossorigin="">
   <!-- css -->
-  <link rel="stylesheet" type="text/css" href="../../styles/css/desktop.css" />
+  <link rel="stylesheet" type="text/css" href="../../styles/css/desktop.css?v=1.1.2" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -37,7 +38,7 @@
           </span>
         </h2>
         <div class="box-content">
-          <div class="ticket-wrap">
+          <div class="ticket-wrap" data-aos="fade-up">
             <div class="col-50">
               <div class="item">
                 <div class="content">
@@ -133,7 +134,7 @@
               </div>
             </div>
           </div>
-          <div class="stage-wrap">
+          <div class="stage-wrap" data-aos="fade-up">
             <div class="map">
               <img src="../../styles/img/stage-img.png" alt="" />
             </div>
@@ -166,7 +167,7 @@
           </div>
         </div>
       </div>
-      <div class="box-service">
+      <div class="box-service" data-aos="fade-up">
         <h2 class="box-heading">
           <span href="" class="title">GÓI SẢN PHẨM DỊCH VỤ
             <br />CHĂM SÓC KHÁCH HÀNG
@@ -302,7 +303,7 @@
           <button>HOÀN THÀNH</button>
         </div>
       </div>
-      <div class="copy-right">
+      <div class="copy-right" data-aos="fade-up">
         <p>Thông tin chi tiết vui lòng liên hệ:</p>
         <p>
           <b>Vietin Coseco</b>
@@ -316,8 +317,7 @@
         <p>Ngân hàng Thương mại Cổ phần Công thương Việt Nam</p>
         <p>
           Điện thoại: <a href="tel:+1900558868">1900 558 868</a>
-          <a href="tel:+(84)2439418868">(84) 24 3941 8868</a> - Fax: (84) 24
-          3942 1032 - Email:
+          <a href="tel:1800558866">1800 55 88 66</a> - Email:
           <a href="contact@vietinbank.vn">contact@vietinbank.vn</a>
         </p>
       </div>
@@ -327,7 +327,10 @@
   <script src="../../js/jquery-3.1.1.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="../../js/ui.js"></script>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 </body>
 
 </html>

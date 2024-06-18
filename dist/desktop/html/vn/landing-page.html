@@ -18,8 +18,9 @@
   <link rel="preload" href="../../styles/fonts/gilroy_vh/SVN-GilroyMedium.woff2" as="font" type="woff2" crossorigin="">
   <link rel="preload" href="../../styles/fonts/gilroy_vh/SVN-Gilroy.woff2" as="font" type="woff2" crossorigin="">
   <!-- css -->
-  <link rel="stylesheet" type="text/css" href="../../styles/css/desktop.css" />
+  <link rel="stylesheet" type="text/css" href="../../styles/css/desktop.css?v=1.1.2" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -30,18 +31,14 @@
         <a href="index.html">logo</a>
       </h1>
       <div class="video-player">
-        <video width="320" height="240" poster="https://trunglq.newsolution.vn/desktop/styles/img/youtube_player.jpg" controls>
-          <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
-          <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg" />
-          Your browser does not support the video tag.
-        </video>
+        <iframe src="https://www.youtube.com/embed/Jn90ejYKvYM" title="VIETINBANK TRAILER1 MASTER 240614" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
       <div class="event-time">
         <span>COMING SOON</span>
         <span>06.07.2024</span>
         <span>Trung tâm Hội nghị Quốc gia - Hà Nội</span>
       </div>
-      <div class="timestamp-txt">
+      <div class="timestamp-txt" data-aos="fade-up">
         <div class="timestamp">
           <span>1</span>
           <span>00</span>
@@ -58,7 +55,7 @@
           <span>#VietinBankPremium</span>
         </div>
       </div>
-      <div class="form-txt">
+      <div class="form-txt" data-aos="fade-up">
         <form action="">
           <div class="form-resiger">
             <p class="label">Đăng ký</p>
@@ -81,7 +78,7 @@
           sàng vươn tới những đỉnh cao mới.
         </div>
       </div>
-      <div class="box-news">
+      <div class="box-news" data-aos="fade-up">
         <h2 class="box-heading">
           <span href="" class="title">ĐIỂM NHẤN
             <br />SỰ KIỆN
@@ -126,13 +123,12 @@
               </a>
             </figure>
             <h2 class="story__heading">
-              <a href="#">SỰ KẾT HỢP NGHỆ SĨ TRÌNH DIỄN ĐẶC BIỆT</a>
+              <a href="#">SỰ KẾT HỢP NGHỆ THUẬT THỊ GIÁC ẤN TƯỢNG</a>
             </h2>
             <div class="story__summary">
-              Những sân khấu đặc biệt dẫn dắt khán giả đến với trải nghiệm
-              nghệ thuật khó phai bởi sự kết hợp của những giọng ca đình đám,
-              tạo nên không gian âm nhạc sâu lắng, đầy xúc cảm, dành riêng cho
-              giới tinh hoa.
+              Mãn nhãn với những màn trình diễn đậm đà tính duy mỹ nghệ thuật
+              mang đến trải nghiệm thị giác xứng tầm dành riêng cho giới tinh
+              hoa.
             </div>
           </article>
         </div>
@@ -219,7 +215,7 @@
           </div>
         </div>
       </div>
-      <div class="box-chairman">
+      <div class="box-chairman" data-aos="fade-up">
         <h2 class="box-heading">
           <span href="" class="title">Giám đốc
             <br />
@@ -245,7 +241,7 @@
           </div>
         </div>
       </div>
-      <div class="box-performance">
+      <div class="box-performance" data-aos="fade-up">
         <h2 class="box-heading">
           <span href="" class="title">Nội dung
             <br />
@@ -363,8 +359,7 @@
         <p>Ngân hàng Thương mại Cổ phần Công thương Việt Nam</p>
         <p>
           Điện thoại: <a href="tel:+1900558868">1900 558 868</a>
-          <a href="tel:+(84)2439418868">(84) 24 3941 8868</a> - Fax: (84) 24
-          3942 1032 - Email:
+          <a href="tel:1800558866">1800 55 88 66</a> - Email:
           <a href="contact@vietinbank.vn">contact@vietinbank.vn</a>
         </p>
       </div>
@@ -374,7 +369,10 @@
   <script src="../../js/jquery-3.1.1.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="../../js/ui.js"></script>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
